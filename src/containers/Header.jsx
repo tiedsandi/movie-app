@@ -1,4 +1,4 @@
-import { Box, Input, Link } from "@mui/material"
+import { Box, Input, Link, Typography } from "@mui/material"
 
 const Header = () => {
     return (
@@ -15,7 +15,10 @@ const Header = () => {
                     alt="The house from the offer."
                     src="./images/mainlogo.png"
                 />
-                <img src="./images/MilanTV.png" alt="logo" height={30} />
+                {/* <img src="./images/MilanTV.png" alt="logo" height={30} /> */}
+                <Typography variant="h2" component="h6" color={'black'} fontWeight={'bold'}>
+                    Milan TV
+                </Typography>
             </Box>
             <Input placeholder="Search Movie" disableUnderline sx={{
                 border: '1px solid #c4c4c4',

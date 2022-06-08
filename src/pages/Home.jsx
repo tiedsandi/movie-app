@@ -1,4 +1,3 @@
-import './style.css'
 import { Box, Typography } from "@mui/material"
 import Header from '../containers/Header';
 import Caraousel from '../containers/Carousel';
