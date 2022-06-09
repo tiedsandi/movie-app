@@ -6,11 +6,11 @@ import "swiper/css/pagination";
 
 const Carousel = () => {
     return (
-        <Box position={'relative'} width={'100%'} height={'500px'} mt={1}>
+        <Box position={'relative'} width={'100%'} height={'800px'} mt={1}>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-                <SwiperSlide><img src="./images/MilanTV.png" alt="logo" /></SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide><img src="./images/banner1.jpg" alt="logo" /></SwiperSlide>
+                <SwiperSlide><img src="./images/banner2.jpg" alt="logo" /></SwiperSlide>
+                <SwiperSlide><img src="./images/banner3.jpg" alt="logo" /></SwiperSlide>
             </Swiper>
         </Box>
     )

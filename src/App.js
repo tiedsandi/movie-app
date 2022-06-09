@@ -18,9 +18,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="overview" element={<Overview />} />
-          <Route path="characters" element={<Characters />} />
-          <Route path="review" element={<Review />} />
+          <Route path="overview/:id" element={<Overview />} />
+          <Route path="characters/:id" element={<Characters />} />
+          <Route path="review/:id" element={<Review />} />
         </Routes>
       </Router>
     </ThemeProvider>
